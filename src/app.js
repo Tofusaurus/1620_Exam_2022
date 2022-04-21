@@ -52,3 +52,33 @@ const contactsList = [
 ]
 
 // Your code goes here
+
+
+var image = new Image(); 
+image.src = "img/aramaki.png"; 
+document.body.appendChild(image); 
+
+var image = new Image(); 
+image.src = "img/batou.png"; 
+document.body.appendChild(image); 
+
+var image = new Image(); 
+image.src = "img/ishikawa.png"; 
+document.body.appendChild(image); 
+
+var image = new Image(); 
+image.src = "img/motoko.png"; 
+document.body.appendChild(image); 
+
+var image = new Image(); 
+image.src = "img/saito.png"; 
+document.body.appendChild(image); 
+
+var image = new Image(); 
+image.src = "img/tachikoma.png"; 
+document.body.appendChild(image); 
+
+var image = new Image(); 
+image.src = "img/togusa.png"; 
+document.body.appendChild(image); 
+

@@ -24,9 +24,6 @@ img {
 
 /* styles */
 .container {
-  display: flex;
-
-
   font-family: 'Inter', sans-serif;
   background-color: var(--white);
 }
@@ -48,6 +45,7 @@ header p {
 header ul {
   display: flex;
   gap: 10px;
+  justify-content:flex-end;
 }
 
 header li {
@@ -56,7 +54,7 @@ header li {
 
 header a {
   text-decoration: none;
-
+  justify-content: flex-end;
 
   font-size: 2rem;
 }
@@ -66,7 +64,7 @@ header a:hover {
 }
 
 main {
-
+  display: flex;
 }
 
 #individual_contact {
@@ -131,11 +129,13 @@ footer {
   height: 5rem;
   display: flex;
   justify-content: center;
+
 }
 
 footer p {
+  position: absolute;
+  bottom: 0;
   font-weight: 500;
   font-size: 1.6rem;
   color: var(--grey);
-  align-self: center;
 }
